@@ -128,11 +128,15 @@
   .myphoto img {
     margin-right: 0;
   }
-  .profile h3, .profile p {
+  .profile-list {
     text-align: center;
   }
-  .sns-btn {
-    text-align: center;
+  .profile-list dt {
+    float: none;
+    display: block;
+  }
+  .profile-list dd {
+    margin: 0 0 40px;
   }
 
   .work-wrapper {

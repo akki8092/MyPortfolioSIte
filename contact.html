@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact | AKIHIRO MAEHARA / WebCoder</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Literata|M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="pc-header">
+        <div class="header-logo">
+          <a href="index.html"><img src="img/logo.png" alt="A.M.Coder"></a>
+        </div>
+        <div class="nav-btn header-right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li class="current"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sp-header">
+        <div class="header-logo">
+          <a href="index.html"><img src="img/logo.png" alt="A.M.Coder"></a>
+        </div>
+        <i class="fas fa-bars" id="show"></i>
+      </div>
+      <div id="menu">
+        <i class="fas fa-times" id="hide"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="contact">
+      <div class="container">
+        <div class="heading">
+          <div class="blink">
+            <img src="img/fav.png">
+          </div>
+          <h1>Contact</h1>
+        </div>
+        <div class="message">
+          <p>
+            コーディング・Web制作に関するお仕事のご依頼・ご相談など<br>
+            お気軽にお問い合わせくださいませ。
+          </p>
+          <br>
+          <p>
+            お問い合わせフォームは現在メンテナンス中につき動作いたしませんので、<br>
+            <a href="mailto:p9w95wfp@s.okayama-u.ac.jp">こちらのメールアドレス</a>に直接お問い合わせいただくか、<br>
+            <a href="https://twitter.com/Akki_programmer">Twitter</a>・<a href="https://www.facebook.com/akihiro.maehara.9022">Facebook</a>までご連絡ください。
+          </p>
+        </div>
+        <form class="mailForm" action="mail.php" method="post">
+            <div class="mailForm__group">
+                <label for="name">お名前・会社名</label><br>
+                <input type="text" id="name" name="name" required/>
+            </div>
+            <div class="mailForm__group">
+                <label for="name">メールアドレス</label><br>
+                <input type="text" id="email" name="email" required/>
+            </div>
+            <div class="mailForm__group">
+                <label for="name">お問い合わせ内容</label><br>
+                <textarea type="text" id="content" name="content" required></textarea>
+            </div>
+            <input type="hidden" id="token" name="token" value="1234567" />
+            <button class="mailForm__submit" type="submit">送信</button>
+        </form>
+       </div>
+    </div>
+
+
+    <footer>
+      <div class="container">
+        <div class="nav-btn footer-left">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li class="current"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="smartphone-footer">
+          <div class="smartphone-btn">
+            <ul>
+              <li><a href="index.html" class="sp-home">Home</a></li>
+              <li><a href="about.html" class="sp-about">About</a></li>
+              <li><a href="works.html" class="sp-works">Works</a></li>
+              <li class="smartphone-current"><a href="contact.html" class="sp-contact">Contact</a></li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-copy">
+          <p>&copy; 2019- AKIHIRO MAEHARA All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <div id="cover"></div>
+    <div id="back-to-top">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/b84ef2fe15.js"></script>
+  </body>
+</html>

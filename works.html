@@ -11,103 +11,105 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
-    <header>
-      <div class="pc-header">
-        <div class="header-logo">
-          <a href="index.html"><img src="img/logo.png" alt="A.M.Coder"></a>
-        </div>
-        <div class="nav-btn header-right">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="current"><a href="works.html">Works</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="sp-header">
-        <div class="header-logo">
-          <a href="index.html"><img src="img/logo.png" alt="A.M.Coder"></a>
-        </div>
-        <i class="fas fa-bars" id="show"></i>
-      </div>
-      <div id="menu">
-        <i class="fas fa-times" id="hide"></i>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="works.html">Works</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </header>
-
-    <div class="works">
-      <div class="container">
-        <div class="heading">
-          <div class="blink">
-            <img src="img/fav.png">
+    <div class="wrapper">
+      <header>
+        <div class="pc-header">
+          <div class="header-logo">
+            <a href="index.html"><img src="img/logo.png" alt="A.M.Coder"></a>
           </div>
-          <h1>Works</h1>
-        </div>
-
-        <div class="work-wrapper">
-          <div class="work myportfolio">
-            <div class="image-container">
-              <img src="img/MyPortfolioSIte.png" alt="">
-            </div>
-            <div class="introduce">
-              <h3>My Portfolio Site</h3>
-              <dl>
-                <dt>制作期間：</dt>
-                <dd>3日（約30時間）</dd>
-                <dt>使用言語等：</dt>
-                <dd>HTML・CSS・JavaScript・jQuery</dd>
-                <dt>概要</dt>
-                <dd>全体として「シンプルに・見やすく」を追求し、背景や動き、彩色などは少なめに（手持ちの技術の少なさゆえにそうせざるを得ないとは言えない（笑））、落ち着きのある白色を基調として、余白の取り方を意識してデザインしました。<br>のっぺりしすぎないように、PC版のレイアウトではヘッダーとフッターにワンポイントとなる青色のボタンを配置してアクセントを添えています。<br>また、スマートフォン画面にも対応したレスポンシブデザインを取り入れ、スマホを手に持った時の指の動きを想像しながら、ボタンの位置も工夫しました。<br>ヘッダーと各ページの見出し部分で明滅する葉っぱのような形をしたロゴは、今現在まだまだWeb制作について勉強中の新米であること、そして将来Webコーダー、ひいてはマークアップエンジニア、プログラマーとして研鑽を積んでいく中でも初心を忘れず常に学び続けるという気持ちを忘れないという意味を込めて、運転免許の初心者マークになぞらえて「若葉」をイメージして作成しました。</dd>
-
-              </dl>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-
-    <footer>
-      <div class="container">
-        <div class="nav-btn footer-left">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="current"><a href="works.html">Works</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="smartphone-footer">
-          <div class="smartphone-btn">
+          <div class="nav-btn header-right">
             <ul>
-              <li><a href="index.html" class="sp-home">Home</a></li>
-              <li><a href="about.html" class="sp-about">About</a></li>
-              <li class="smartphone-current"><a href="works.html" class="sp-works">Works</a></li>
-              <li><a href="contact.html" class="sp-contact">Contact</a></li>
-              <div class="clear"></div>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="current"><a href="works.html">Works</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
         </div>
 
-        <div class="footer-copy">
-          <p>&copy; 2019- AKIHIRO MAEHARA All rights reserved.</p>
+        <div class="sp-header">
+          <div class="header-logo">
+            <a href="index.html"><img src="img/logo.png" alt="A.M.Coder"></a>
+          </div>
+          <i class="fas fa-bars" id="show"></i>
         </div>
+        <div id="menu">
+          <i class="fas fa-times" id="hide"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="works">
+        <div class="container">
+          <div class="heading">
+            <div class="blink">
+              <img src="img/fav.png">
+            </div>
+            <h1>Works</h1>
+          </div>
+
+          <div class="work-wrapper">
+            <div class="work myportfolio">
+              <div class="image-container">
+                <img src="img/MyPortfolioSIte.png" alt="">
+              </div>
+              <div class="introduce">
+                <h3>My Portfolio Site</h3>
+                <dl>
+                  <dt>制作期間：</dt>
+                  <dd>3日（約30時間）</dd>
+                  <dt>使用言語等：</dt>
+                  <dd>HTML・CSS・JavaScript・jQuery</dd>
+                  <dt>概要</dt>
+                  <dd>全体として「シンプルに・見やすく」を追求し、背景や動き、彩色などは少なめに（手持ちの技術の少なさゆえにそうせざるを得ないとは言えない（笑））、落ち着きのある白色を基調として、余白の取り方を意識してデザインしました。<br>のっぺりしすぎないように、PC版のレイアウトではヘッダーとフッターにワンポイントとなる青色のボタンを配置してアクセントを添えています。<br>また、スマートフォン画面にも対応したレスポンシブデザインを取り入れ、スマホを手に持った時の指の動きを想像しながら、ボタンの位置も工夫しました。<br>ヘッダーと各ページの見出し部分で明滅する葉っぱのような形をしたロゴは、今現在まだまだWeb制作について勉強中の新米であること、そして将来Webコーダー、ひいてはマークアップエンジニア、プログラマーとして研鑽を積んでいく中でも初心を忘れず常に学び続けるという気持ちを忘れないという意味を込めて、運転免許の初心者マークになぞらえて「若葉」をイメージして作成しました。</dd>
+
+                </dl>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+
+        </div>
+
       </div>
-    </footer>
-    <div id="cover"></div>
-    <div id="back-to-top">
-      <i class="fas fa-angle-up"></i>
+
+
+      <footer>
+        <div class="container">
+          <div class="nav-btn footer-left">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="current"><a href="works.html">Works</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="smartphone-footer">
+            <div class="smartphone-btn">
+              <ul>
+                <li><a href="index.html" class="sp-home">Home</a></li>
+                <li><a href="about.html" class="sp-about">About</a></li>
+                <li class="smartphone-current"><a href="works.html" class="sp-works">Works</a></li>
+                <li><a href="contact.html" class="sp-contact">Contact</a></li>
+                <div class="clear"></div>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-copy">
+            <p>&copy; 2019- AKIHIRO MAEHARA All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <div id="cover"></div>
+      <div id="back-to-top">
+        <i class="fas fa-angle-up"></i>
+      </div>
     </div>
     <script src="js/main.js"></script>
     <script src="js/script.js"></script>

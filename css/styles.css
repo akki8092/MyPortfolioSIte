@@ -450,7 +450,7 @@ form {
 
 input, textarea {
   width: 400px;
-  margin: 15px 30px 30px;
+  margin: 15px 0 30px;
   border-style: none;
   font-size: 18px;
 }

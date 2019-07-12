@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>AKIHIRO MAEHARA / WebCoder</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Literata|M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="pc-header">
+        <div class="header-logo">
+          <a href="index.html"><img src="img/logo.png" alt="A.M.Coder"></a>
+        </div>
+        <div class="nav-btn header-right">
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sp-header">
+        <div class="header-logo">
+          <a href="index.html"><img src="img/logo.png" alt="A.M.Coder"></a>
+        </div>
+        <i class="fas fa-bars" id="show"></i>
+      </div>
+      <div id="menu">
+        <i class="fas fa-times" id="hide"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="top-wrapper">
+      <div class="container">
+        <h1 class="front">人と人をつなぐ場所が、</h1>
+        <h1 class="back">そこに在る。</h1>
+        <div class="concept">
+          <p>その人の心にちょっとした<br>
+            “さざ波”を立てる空間を創り出す。
+          </p>
+          <br>
+          <p>Webコーダーとして、<br>
+            そんな想いをカタチにするお手伝いができればと思います。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-wrapper">
+      <div class="container">
+        <h2>Service</h2>
+        <div class="services">
+          <div class="service ser1">
+            <h3>- デザイン -</h3>
+            <img src="img/design.jpg" alt="デザイン">
+            <p>クライアント様がイメージするサイト構成や、お持ちの画像データ等をもとに、サイトの骨格となるデザインを練っていきます。画面の向こう側にいる「人」を意識して、UI/UXともに充実するようなデザインとは何かを考え、クライアント様の目的を達成できるようカタチにしていきます。</p>
+          </div>
+          <div class="service ser2">
+            <h3>- コーディング -</h3>
+            <img src="img/coding.jpg" alt="コーディング">
+            <p>練り上げたデザインをもとに、実際にWebサイトを制作していきます。単に派手な装飾や効果を使いまくればいいというわけではなく、適切な部分に「ほどよく」実装するだけでも、サイト全体の仕上がりやユーザーに与える印象は大きく変わります。また、スマートフォンユーザーの目線に立ったレスポンシブデザインの構築も請け負います。</p>
+          </div>
+          <div class="service ser3">
+            <h3>- CMS構築 -</h3>
+            <img src="img/wordpress.jpg" alt="CMS構築">
+            <p>コーディングのみならず、サイト制作後もサイトを更新し続けたいクライアント様に向けて、主にWordPressによるCMS構築も承っております。Webがあまり得意ではないクライアント様でも、直感的にサイトを管理・更新できるように、テーマのテンプレート作成・WordPressの導入から初期設定も必要に応じて対応します。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="works-wrapper">
+      <div class="container">
+        <h2>Works</h2>
+        <div class="work-image">
+          <img src="img/MyPortfolioSite.png" alt="ポートフォリオサイト">
+        </div>
+
+        <div class="detail">
+          <a href="works.html">もっと詳しく</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="pc-version">
+          <div class="nav-btn footer-left">
+            <ul>
+              <li class="current"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="works.html">Works</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="smartphone-footer">
+          <div class="smartphone-btn">
+            <ul>
+              <li class="smartphone-current"><a href="index.html" class="sp-home">Home</a></li>
+              <li><a href="about.html" class="sp-about">About</a></li>
+              <li><a href="works.html" class="sp-works">Works</a></li>
+              <li><a href="contact.html" class="sp-contact">Contact</a></li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copy">
+          <p>&copy; 2019- AKIHIRO MAEHARA All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <div id="cover"></div>
+    <div id="back-to-top">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/b84ef2fe15.js"></script>
+  </body>
+</html>

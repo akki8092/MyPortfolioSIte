@@ -179,6 +179,7 @@ a {
 
 .top-wrapper h1 {
   padding: 0;
+  display: inline-block;
 }
 @keyframes fronttyping { from { width: 0; } }
 @keyframes backtyping {

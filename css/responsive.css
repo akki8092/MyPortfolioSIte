@@ -29,9 +29,25 @@
     width: 60%;
     margin: 0 auto 50px;
   }
-  .service img {
-    width: 80%;
+  .service img, .service p {
+    width: 90%;
   }
+
+  /* index works-wrapper */
+  .work-images {
+    display: block;
+  }
+  .work-image {
+    float: left;
+    width: 50%;
+  }
+  .clear {
+    clear: left;
+  }
+  .work-image img {
+    width: 300px;
+  }
+  /* index works-wrapper */
 
   /* about.html */
   .profile {
@@ -48,9 +64,13 @@
   }
   .image-container img {
     padding: 0;
+    width: 80%;
   }
   .introduce {
     display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .introduce h3 {
     text-align: center;
@@ -109,7 +129,6 @@
     padding: 0 10px;
     font-size: 14px;
   }
-
   .service {
     width: 100%;
   }
@@ -145,9 +164,47 @@
     margin: 0 0 40px;
   }
 
+
+/* index works-wrapper */
+  .works-wrapper {
+    clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+    padding-bottom: 100px;
+  }
+  .work-images {
+    display: block;
+  }
+  .work-image {
+    width: 100%;
+    margin: 0 0 50px;
+    float: none;
+  }
+  .work-image img {
+    width: 90%;
+  }
+  .clear {
+    display: none;
+  }
+/* index.html works-wrapper */
+
+/* works.html */
   .work-wrapper {
     margin: 50px 10px 10px;
+    text-align: left;
   }
+  .image-container img {
+    width: 90%;
+  }
+  .introduce {
+    width: 90%;
+  }
+  .introduce dt {
+    float: none;
+  }
+  .introduce dd {
+    margin-left: 0;
+    padding-bottom: 20px;
+  }
+  /* works.html */
 
   form {
     border-radius: 0;
@@ -156,14 +213,12 @@
     width: 100%;
     margin: 0 auto;
   }
-
   input, textarea {
     width: 100%;
   }
   .mailForm__submit {
     margin: 20px;
   }
-
   .fa-angle-up {
     background: rgba(243, 247, 129, 0.6);
   }

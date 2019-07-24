@@ -66,7 +66,7 @@ a {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 10px 0 30px;
+  padding: 0 10px;
 }
 .sp-header {
   display: none;
@@ -170,15 +170,16 @@ a {
 }
 
 .top-wrapper {
-  background-image: url(../img/top.jpg);
+  background-image: url(../img/mytop.JPG);
   background-position: center;
   padding: 100px 0;
   background-size: cover;
-  filter: brightness(115%);
+  filter: brightness(130%);
 }
 
 .top-wrapper h1 {
   padding: 0;
+  text-shadow: 2px 2px 3px white;
 }
 @keyframes fronttyping { from { width: 0; } }
 @keyframes backtyping {
@@ -201,6 +202,10 @@ a {
 
 .concept {
   padding: 40px 0;
+}
+.concept p {
+  font-size: 18px;
+  text-shadow: 1px 1px 3px white;
 }
 
 .service-wrapper {
@@ -235,15 +240,17 @@ a {
   text-align: center;
   background: #F2F2F2;
   clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 85%);
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
-.work-image {
+.work-images {
   display: flex;
   justify-content: space-around;
 }
-
+/* .work-image {
+  margin: 40px 30px;
+} */
 .work-image img {
-  width: 300px;
+  width: 400px;
 }
 
 .detail a {
@@ -391,6 +398,7 @@ footer {
 }
 .work {
   display: flex;
+  margin: 50px 0;
 }
 
 .image-container img {
@@ -419,8 +427,11 @@ footer {
 }
 
 .introduce dd {
-  margin-left: 110px;
+  margin-left: 10em;
   line-height: 30px;
+}
+.introduce dd a:hover {
+  text-decoration: underline;
 }
 
 

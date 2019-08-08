@@ -245,14 +245,18 @@ a {
 .work-images {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
-/* .work-image {
-  margin: 40px 30px;
-} */
+.work-image {
+  margin: 40px 0 30px;
+}
 .work-image img {
   width: 400px;
 }
 
+.detail {
+  padding-bottom: 30px;
+}
 .detail a {
   display: inline-block;
   padding: 8px 24px;
@@ -416,7 +420,6 @@ video {
   display: block;
   width: 400px;
 }
-
 .introduce {
   color: #424242;
 }

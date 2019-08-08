@@ -405,6 +405,17 @@ footer {
   padding-right: 20px;
   width: 400px;
 }
+.movie-wrapper {
+  /* background: pink; */
+  margin-right: 20px;
+  padding-bottom: 56.25%;  /* 縦 : 横 = 16 : 9 (% は親要素に対しての割合) */
+  height: 0;
+  position: relative;
+}
+video {
+  display: block;
+  width: 400px;
+}
 
 .introduce {
   color: #424242;

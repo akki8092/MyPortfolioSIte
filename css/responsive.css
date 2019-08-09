@@ -71,6 +71,7 @@
   }
   .movie-wrapper {
     width: 80%;
+    margin: 0 auto;
   }
   video {
     position: absolute;
